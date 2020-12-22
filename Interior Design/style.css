@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: sans-serif
+}
+.Menu {
+    width: 24%;
+    height: 100vh;
+    background-color: #f44336;
+    position: fixed;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 50px;
+    list-style-type: none;   
+}
+.list-items-menu {
+    text-decoration: none;
+    font-size: 2.5rem;
+    
+}
+.list-items-menu {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+    line-height: 60px;
+    height: 900px; 
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.5;
+    margin-top: 130px;
+    padding-left: 1.5em;
+    padding-bottom: 90px;
+    
+}
+.list-items-menu:hover {
+    background-color: #ffffff;
+   padding:  10px 100px 10px 10px;
+    
+}
+.list-items-menu:hover {
+    color: black;
+}
+
+.sec1 {
+    padding-top: 130px;
+    margin-left: 25%;
+    width: 75%;
+    height: auto;
+    
+}
+.sec1 h1 {
+    font-size: 9rem;
+    margin-left: 50px;
+}
+.sec1 h2 {
+    padding-top: 20px;
+    font-size: 7rem;
+    margin-left: 50px;
+    color: #f44336 ;
+}
+.sec1 hr {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80px;
+    height: 12px;
+    border: 7px solid red;
+    border-radius: 6px;
+    
+}
+.img1sec {
+    width: 100%;
+}
+.img1sec {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.divimg {
+    
+    width: 46%;
+    padding: 10px;
+}
+.divimg:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+.sec2 {
+    padding-top: 100px;
+    margin-left: 25%;
+    width: 75%;
+    height: auto;
+}
+
+.sec2 h2 {
+    padding-top: 0px;
+    font-size: 7rem;
+    margin-left: 50px;
+    color: #f44336 ;
+}
+.sec2 hr {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80px;
+    height: 12px;
+    border: 7px solid red;
+    border-radius: 6px;
+    
+}
+.sec2 p {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 2.4rem;
+}
+.sec3 {
+    padding-top: 100px;
+    margin-left: 25%;
+    width: 75%;
+    height: auto;
+}
+
+.sec3 h2 {
+    padding-top: 0px;
+    font-size: 7rem;
+    margin-left: 50px;
+    color: #f44336 ;
+}
+.sec3 hr {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80px;
+    height: 12px;
+    border: 7px solid red;
+    border-radius: 6px;
+    
+}
+.sec3 p {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 2.4rem;
+    
+}
