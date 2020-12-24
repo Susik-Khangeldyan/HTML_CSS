@@ -57,7 +57,7 @@ header h1 {
 .sec1 {
     padding-top: 130px;
     margin-left: 25%;
-    width: 75%;
+    width: 1200px;
     height: auto;
     
 }
@@ -91,22 +91,23 @@ header h1 {
     
 }
 .divimg {
-    
-    width: 46%;
+    opacity: 0.75;
+    width: 48%;
     padding: 10px;
 }
 .divimg:hover {
-    opacity: 0.75;
+    opacity: 100;
     cursor: pointer;
 }
 .sec2 {
     padding-top: 100px;
     margin-left: 25%;
-    width: 75%;
+    width: 1200px;
     height: auto;
 }
 
 .sec2 h2 {
+    
     padding-top: 0px;
     font-size: 7rem;
     margin-left: 50px;
@@ -129,7 +130,7 @@ header h1 {
 .sec3 {
     padding-top: 100px;
     margin-left: 25%;
-    width: 75%;
+    width: 1200px;
     height: auto;
 }
 
@@ -154,3 +155,113 @@ header h1 {
     font-size: 2.4rem;
     
 }
+.pbold {
+    font-weight: 550;
+}
+.imgdiv-main {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 45px;
+    
+}
+.imgdiv {
+    margin: 10px;
+    width: 360px;
+    height: 510px;
+    background-color: rgb(236, 236, 236);
+    
+
+}
+.designersimg {
+    width: 100%;
+    opacity: 0.75;
+    
+    
+}
+.imgdiv-main h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 3.5rem;
+    font-weight: 500;
+    
+}
+.imgdiv-main h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    opacity: 0.75 ;
+}
+.imgdiv-main h4 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.sec4 {
+    padding-top: 120px;
+    margin-left: 25%;
+    width: 1200px;
+    height: auto;
+}
+.sec4 h1 {
+    
+    padding-top: 0px;
+    font-size: 7rem;
+    margin-left: 50px;
+    color: #f44336 ;
+}
+.sec4 hr {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 80px;
+    height: 12px;
+    border: 7px solid #f44336;
+    border-radius: 6px;
+    
+}
+.sec4 p {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 2.4rem;
+}
+.packageslist {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;  
+    margin-left: 50px;      
+}
+li {
+    list-style-type: none;
+    width: 100%;
+}
+.ullist {
+    width: 50%;
+    margin-right: 20px;
+}
+.listcontent {
+  background-color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  
+}
+#Basic {
+    background-color: #616161;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 45px 0;
+    color: white;
+  }
+  #Pro {
+    background-color: #f44336;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 45px 0;
+    color: white;
+  }
