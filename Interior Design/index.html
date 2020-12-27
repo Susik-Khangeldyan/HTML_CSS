@@ -32,11 +32,11 @@
         </ul>
     </header>
     <section >
-        <div class="sec1" id="#home" >
+        <div class="sec1" id="home" >
             <h1>Interior Design</h1>
-            <h2>Showcase.</h2>
+            <h2 id="Showcase" >Showcase.</h2>
             <hr>
-            <div class="img1sec" >
+            <div class="img1sec"  >
                 <img class="divimg" src="./images/kitchenconcrete.jpg" alt="">
                 <img class="divimg" src="./images/atrium.jpg" alt="">
                 <img class="divimg" src="./images/livingroom.jpg" alt="">
@@ -46,8 +46,8 @@
             </div>
         </div>
     </section>
-    <section  class="sec2"  >
-        <h2 id="#services" >Services.</h2>
+    <section  class="sec2" id="services"  >
+        <h2 id="services" >Services.</h2>
         <hr>
         <p>
             We are a interior design service that focus on what's best for your home and what's best for you! <br> <br>
@@ -59,7 +59,7 @@
             laboris nisi ut aliquip ex ea commodo consequat.
         </p>
     </section>
-    <section class="sec3">
+    <section class="sec3" id="designers" >
         <h2>Designers.</h2>
         <hr>
         <p>
@@ -100,11 +100,11 @@
                 </div>
             </div>
     </section>
-    <section class="sec4"> 
+    <section class="sec4" id="packages"  > 
         
            <h1>Packages.</h1>
            <hr>
-           <p>Some text our prices. Lorem ipsum consectetur adipiscing elit,
+           <p class="sec4p" >Some text our prices. Lorem ipsum consectetur adipiscing elit,
              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
              Ut enim ad minim veniam, quis nostrud exercitation ullamco 
              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
@@ -116,10 +116,12 @@
                  <li class="listcontent">Photography</li>
                  <li class="listcontent">20% furniture discount</li>
                  <li class="listcontent">Good deals</li>
-                 <li class="listcontent">$ 199</li>
-                 <h6>per room</h6>
-                 <li>
-                     <button>Sign Up</button>
+                 
+                 <li class="listcontent" id="dollar" >$ 199 <p class="subtext" >per room</p></li>
+                 
+                 <li class="listcontent">
+                     <button class="button1">Sign Up</button>
+                     
                  </li>
              </ul>
              <ul class="ullist" >
@@ -129,14 +131,43 @@
                 <li class="listcontent">Photography</li>
                 <li class="listcontent">50% furniture discount</li>
                 <li class="listcontent">GREAT deals</li>
-                <li class="listcontent">$ 249</li>
-                <h6>per room</h6>
-                <li>
-                    <button>Sign Up</button>
+                <li class="listcontent" id="dollar" >$ 249 <p class="subtext" >per room</p></li>
+                
+                <li class="listcontent" >
+                    <button class="button2" >Sign Up</button>
                 </li>
             </ul>
             </div>
     </section>
+    <section class="sec5" id="contact">
+        <h1>Contact.</h1>
+           <hr>
+           <p class="sec4p" >Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!
+        </p>
+        <div class="inputdiv" >
+        <form action="POST">
+            <div  class="input" >
+                <p>Name</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>Email</p>
+                <input required type="email">
+            </div>
+            <div class="input">
+                <p>Message</p>
+                <input type="text">
+            </div>
+            <div>
+                <input type="submit" class="inputbutton">
+            </div>
+        </form>
+    </div>
+    
+    </section>
+    <div class="power" >
+        <p>Powered by Susik Khangeldyan</p>
+    </div>
     
 </body>
 </html>
