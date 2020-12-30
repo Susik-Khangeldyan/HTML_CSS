@@ -8,7 +8,7 @@ html {
     font-family: sans-serif
 }
 .Menu {
-    width: 24%;
+    width: 330px;
     height: 100vh;
     background-color: #f44336;
     position: fixed;
@@ -20,32 +20,29 @@ body{
 .ul {
     display: flex;
     flex-direction: column;
-    
-    margin-left: 50px;
+    margin-left: 40px;
     list-style-type: none;   
 }
 .list-items-menu {
     text-decoration: none;
-    font-size: 2.5rem;
+    
     
 }
 .list-items-menu {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #ffffff;
-    font-weight: bolder;
-    line-height: 1.5;
-    line-height: 60px;
-    font-weight: 700; 
+    line-height: 45px;
+    font-weight: 650; 
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: white;
     font-weight: bolder;
     line-height: 1.5;
-    margin-top: 130px;
+    margin-top: 120px;
     padding-left: 1.5em;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     
 }
 .list-items-menu:hover {
@@ -58,28 +55,28 @@ header h1 {
 }
 
 .sec1 {
-    padding-top: 130px;
+    padding-top: 120px;
     margin-left: 25%;
-    width: 1200px;
+    width: 950px;
     height: auto;
     
 }
 .sec1 h1 {
-    font-size: 9rem;
+    font-size: 7rem;
     margin-left: 50px;
 }
 .sec1 h2 {
     padding-top: 20px;
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-left: 50px;
     color: #f44336 ;
 }
 .sec1 hr {
     margin-top: 30px;
     margin-left: 50px;
-    width: 80px;
+    width: 75px;
     height: 12px;
-    border: 7px solid red;
+    border: 5px solid red;
     border-radius: 6px;
     
 }
@@ -105,57 +102,58 @@ header h1 {
 .sec2 {
     padding-top: 100px;
     margin-left: 25%;
-    width: 1200px;
+    width: 950px;
     height: auto;
 }
 
 .sec2 h2 {
-    
     padding-top: 0px;
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-left: 50px;
     color: #f44336 ;
 }
 .sec2 hr {
     margin-top: 30px;
     margin-left: 50px;
-    width: 80px;
+    width: 75px;
     height: 12px;
-    border: 7px solid red;
+    border: 5px solid red;
     border-radius: 6px;
     
 }
 .sec2 p {
     margin-top: 40px;
     margin-left: 50px;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 .sec3 {
     padding-top: 100px;
     margin-left: 25%;
-    width: 1200px;
+    width: 950px;
     height: auto;
 }
 
 .sec3 h2 {
     padding-top: 0px;
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-left: 50px;
     color: #f44336 ;
 }
 .sec3 hr {
     margin-top: 30px;
     margin-left: 50px;
-    width: 80px;
+    width: 75px;
     height: 12px;
-    border: 7px solid red;
+    border: 5px solid red;
     border-radius: 6px;
     
 }
 .sec3 p {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 50px;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.5;
     
 }
 .pbold {
@@ -170,7 +168,7 @@ header h1 {
 .imgdiv {
     margin: 10px;
     width: 360px;
-    height: 510px;
+    height: 430px;
     background-color: rgb(236, 236, 236);
     
 
@@ -184,7 +182,7 @@ header h1 {
 .imgdiv-main h1 {
     margin-left: 20px;
     margin-top: 20px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
     
 }
@@ -193,46 +191,47 @@ header h1 {
     margin-top: 20px;
     font-size: 2rem;
     font-weight: 500;
-    opacity: 0.75 ;
+    opacity: 0.55 ;
 }
 .imgdiv-main h4 {
     margin-left: 20px;
     margin-top: 20px;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.5;
 }
 .sec4 {
     padding-top: 120px;
     margin-left: 25%;
-    width: 1200px;
+    width: 950px;
     height: auto;
 }
 .sec4 h1 {
     
     padding-top: 0px;
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-left: 50px;
     color: #f44336 ;
 }
 .sec4 hr {
     margin-top: 30px;
     margin-left: 50px;
-    width: 80px;
+    width: 75px;
     height: 12px;
-    border: 7px solid #f44336;
+    border: 5px solid #f44336;
     border-radius: 6px;
     
 }
 .sec4p {
-    margin-top: 40px;
+    margin-top: 15px;
     margin-left: 50px;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 .packageslist {
     display: flex;
     justify-content: center;
-    margin-top: 50px;  
+    margin-top: 20px;  
     margin-left: 50px;      
 }
 li {
@@ -245,9 +244,8 @@ li {
 }
 .listcontent {
   background-color: #00000010;
-  
-  font-size: 2.3rem;
-  padding: 22px;
+  font-size: 1.8rem;
+  padding: 20px;
   border-bottom: 1px solid #ddd;
   text-align: center;
   
@@ -255,39 +253,38 @@ li {
 #Basic {
     background-color: #616161;
     line-height: 1.5;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
-    padding: 43px 0;
+    padding: 30px 0;
     color: white;
   }
   #Pro {
     background-color: #f44336;
     line-height: 1.5;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
-    padding: 43px 0;
+    padding: 30px 0;
     color: white;
   }
 
 #dollar {
-    font-size: 4rem;
-    padding: 40px;
+    font-size: 3.5rem;
+    padding: 25px;
 }
 .subtext {
-    font-size: 1rem;
+    font-size: 1.8rem;
     text-align: center;
     color: grey;
     margin-top: 15px;
-    font-size: 2.5rem;
     font-weight: 400px;  
 }
 .button1 {
-   width: 150px;
-   height: 65px;
+   width: 120px;
+   height: 50px;
    border-radius: 0;
    background-color: white;
    border: none;
-   font-size: 2.3rem;
+   font-size: 2rem;
     
 }
 .button1:hover {
@@ -295,12 +292,12 @@ li {
    color: white;
 }
 .button2 {
-    width: 150px;
-    height: 65px;
-    border-radius: 0;
+   width: 120px;
+   height: 50px;
+   border-radius: 0;
    background-color:#f44336;
    border: none;
-   font-size: 2.3rem;
+   font-size: 1.8rem;
    color: white;
     
 }
@@ -311,35 +308,36 @@ li {
 .sec5 {
     padding-top: 120px;
     margin-left: 25%;
-    width: 1200px;
+    width: 950px;
     height: auto;
 }
 .sec5 h1 {
-    
     padding-top: 0px;
-    font-size: 7rem;
+    font-size: 5.5rem;
     margin-left: 50px;
     color: #f44336 ;
 }
 .sec5 hr {
     margin-top: 30px;
     margin-left: 50px;
-    width: 80px;
+    width: 75px;
     height: 12px;
-    border: 7px solid #f44336;
+    border: 5px solid #f44336;
     border-radius: 6px;
     
 }
-.sec4p {
-    margin-top: 40px;
+.sec4pp {
+    margin-top: 20px;
     margin-left: 50px;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    
 }
 .inputdiv {
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 .input {
@@ -348,36 +346,42 @@ li {
     
 }
 input {
-    width: 95%;
-    height: 55px;
-    font-size: 2.5rem;
+    width: 82%;
+    height: 45px;
+    font-size: 2rem;
     padding-left: 10px;
     border: rgb(211, 210, 210) solid 1px;
+    width: 900px;
     
 }
 .inputdiv p {
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding-top: 20px;
 }
+
 .inputbutton {
-    margin-top: 25px;
-    width: 1091px;
-    height: 55px;
-    font-size: 2.2rem;
-    padding-top: 10px 0px 10px 0px;
-    background-color:  #f44336 ;
-    border: none;
+    width: 900px;
+    background-color: #f44336 ;
     color: white;
+    border: none;
+    margin-top: 25px;
+    font-size: 2rem;
+    height: 50px;
 }
 .power {
     margin-top: 100px;
     width: 100%;
-    height: 150px;
+    height: 120px;
     background-color: rgb(235, 235, 235);
 }
 .power p {
     padding-top: 50px;
-    margin-left: 71.5%;
-    font-size: 2.5rem;
+    margin-left: 75%;
+    font-size: 2rem;
     color: grey;
+}
+
+.inputbutton:hover {
+    background-color: rgb(190, 190, 190);
+    color: black;
 }
